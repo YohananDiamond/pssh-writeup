@@ -1,0 +1,6 @@
+const say-hello-to = |x|
+  printfmt "Hello, {}!" x
+end
+
+say-hello-to "Joe"
+say-hello-to "Dylan"
