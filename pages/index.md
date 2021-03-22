@@ -1,16 +1,6 @@
-<!-- vim: ft=markdown
-     -->
+# Index
 
-# Pseudo-Safe Shell
-
-I want it to be safe, but I won't call it safe because I am not smart
-enough to call it.
-
-## Possible acronyms
-
-* pss
-* psh
-* pssh
+* [Possible names & stuff](possible-names.md)
 
 ## Ideas
 
@@ -141,3 +131,7 @@ kwcall lazy-import {:file (@this-file + "/../print.pssh")
 * Parsing modes: `--per-line` and `--entire` (where `--entire` is the
   default) (`--per-line` is useful when reading commands from standard
   input and should be enabled there by default).
+
+<!--
+  vim: ft=markdown
+-->
